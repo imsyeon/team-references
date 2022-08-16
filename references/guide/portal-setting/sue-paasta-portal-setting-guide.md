@@ -62,10 +62,7 @@
   + tomcat 서버는 프로젝트 당 하나씩 생성해 서버를 구동함
   + **psta-zuul-gateway**는 제외
   + `servers` 창에서 우클릭 > `New`에서 `server` 선택 > Tomcat v9.0 server 선택 > Server name을 각 프로젝트 이름에 맞게 변경 > `Next` > 프로젝트를 선택하여 `Add` 클릭 > `Finish` 선택
-  + server 생성이 완료된 목록
-
-![](https://velog.velcdn.com/images/imsooyeon/post/64b31c07-e15b-4357-b575-e4e796283215/image.png)
-
+  
 - tomcat 서버 port 변경
 
   + 각 프로젝트 마다 port 변경 필요
@@ -82,8 +79,6 @@ psta-api-apply: 9050
 psta-api-release: 9060
 psta-web-user-en: 8070 
 ```
- 
-![](https://velog.velcdn.com/images/imsooyeon/post/97708c64-b717-4f5c-883e-539da337ff6b/image.png)
 
 - 접속 경로 변경
   + 프로젝트 접속 경로 변경 필요
@@ -98,7 +93,6 @@ psta-api-apply: /psta-api-apply
 psta-api-release: /psta-api-relaese
 psta-web-user-en: /en
 ```
-![](https://velog.velcdn.com/images/imsooyeon/post/af36ee8d-9772-41aa-87a5-b8c5ca4bd70e/image.png)
 
 - 각 서버에 암호화 설정값 추가
   + `Overview` > `Open launch configuration` > `Arguments` > `VM Arguments`에 `-Djasypt.encryptor.password=paas-ta-msa` 추가
