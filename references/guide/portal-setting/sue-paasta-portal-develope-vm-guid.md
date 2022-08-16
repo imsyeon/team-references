@@ -303,9 +303,7 @@ $ ln -s /home/vsftp/ftp/file file
 $ sudo service apache2 restart
 ```
 
-- VM IP로 브라우저 접속 시 아래와 같이 뜨면 정상 적용 확인
-
-![](https://velog.velcdn.com/images/imsooyeon/post/9b013495-3179-4823-a4ba-6f49d8aba34f/image.png)
+- VM IP로 브라우저 접속 시 apache 브라우저 확인하면 정상 적용
 
 ## 5. 대표포털 프로젝트 적용
 
